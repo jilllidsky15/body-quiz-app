@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Body Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">  </head>
+  <body>
+    <main role="main" class="container">
+      <header>
+        <h1>Body Quiz</h1>
+      </header>
+      <section class="current-standing-box">
+        <div class="current current-question">Question: 1/10</div>
+        <div class="current current-score">Current Score: 0</div>
+      </section>
+      <section class="question-box js-question">
+        <h3 class="question-text">Which of the four lobes in your brain is responsible for decision making?</h3>
+        <form class="question-form">
+          <ul class="question-options">
+            <li>
+              <input type="radio" name="option" value="Parietal">Parietal
+            </li>
+            <li>
+              <input type="radio" name="option" value="Occipital">Occipital
+            </li>
+            <li>
+              <input type="radio" name="option" value="Frontal">Frontal
+            </li>
+            <li>
+              <input type="radio" name="option" value="Temporal">Temporal
+            </li>
+          </ul>
+          <div class="button-wrapper">
+            <button type="submit" class="submit-button">Submit</button>
+          </div>
+        <form>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
