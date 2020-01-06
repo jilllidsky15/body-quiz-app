@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -12,29 +12,17 @@
         <h1>Body Quiz</h1>
       </header>
       <section class="start-quiz-box">
-        <h2>Test yourself to see how much you know about your body! </h2>
+        <h2>Test yourself to see how much you know about your body!</h2>
         <button type="button" class="start-button">Let's get started!</button>
       </section>
       <section class="current-standing-box">
-        <div class="current current-question">Question: 1/10</div>
-        <div class="current current-score">Current Score: 0</div>
+        <div class="current">Question: <span class="question-number">1</span>/10</div>
+        <div class="current">Current Score: <span class="score-number">0</span></div>
       </section>
-      <section class="question-box js-question">
+      <section class="question-box">
         <h3 class="question-text">Which of the four lobes in your brain is responsible for decision making?</h3>
         <form class="question-form">
           <ul class="question-options">
-            <li>
-              <input type="radio" name="option" value="Parietal">Parietal
-            </li>
-            <li>
-              <input type="radio" name="option" value="Occipital">Occipital
-            </li>
-            <li>
-              <input type="radio" name="option" value="Frontal">Frontal
-            </li>
-            <li>
-              <input type="radio" name="option" value="Temporal">Temporal
-            </li>
           </ul>
           <div class="button-wrapper">
             <button type="submit" class="submit-button">Submit</button>
@@ -49,34 +37,17 @@
       </section>
       <section class="answer-box js-incorrect-answer">
         <div class="incorrect-answer">
-          <p>Sorry, that's not the answer. The correct answer is: Frontal.</p>
+          <p>Sorry, that's not the answer. The correct answer is: <span class="correctAnswerText">Frontal</span>.</p>
           <button type="button" class="next-button">Next</button>
         </div>
       </section>
       <section class="final-box js-final">
         <div class="final-score">
-          <p>Your final score is 0/10.</p>
-          <button type="button" class="restart-quiz">Restart Quiz</button>
+          <p>Your final score is <span class="questions-correct">0</span>/10.</p>
+          <button type="button" class="restart-button">Restart Quiz</button>
         </div>
       </section>
     </main>
-    <footer>
-      <h5>Wireframe Views</h5>
-      <ul>
-        <li>
-          <a href="https://quiz-app-wireframe.jilllidsky15.repl.co/01-start-screen.html">01-start-screen</a>
-        </li>
-        <li>
-          <a href="https://quiz-app-wireframe.jilllidsky15.repl.co/02-main-screen.html">02-main-screen</a>
-        </li>
-        <li>
-          <a href="https://quiz-app-wireframe.jilllidsky15.repl.co/03-feedback-screen.html">03-feedback-screen</a>
-        </li>
-        <li>
-          <a href="https://quiz-app-wireframe.jilllidsky15.repl.co/04-end-of-quiz-screen.html">04-end-of-quiz-screen</a>
-        </li>
-      </ul>
-    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
