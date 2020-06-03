@@ -73,7 +73,7 @@ const STORE = [
     question: 'Which system is responsible for producing and secreting hormones?',
     options: [
       'Endocrine system',
-      'Reproduction system',
+      'Reproductive system',
       'Nervous system',
       'Muscular system'
     ],
